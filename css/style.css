@@ -1,0 +1,99 @@
+.add-task input {
+    width: 70%;
+    margin-top: 10px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    outline: darkturquoise;
+}
+.add-task .plus {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+
+.add-task .plus:hover {
+    transform: rotate(20deg);
+}
+.tasks span {
+    background-color: aqua;
+    width: 50%;
+    display: inline-block;
+
+}
+.tasks-stats {
+    background-color: aliceblue;
+    width: 70%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.tasks {
+    width: 70%;
+}
+.tasks .taskPox {
+    float: left;
+    background-color: rgb(117, 117, 237);
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.tasks .taskDelete {
+    background-color: red;
+    color: white;
+    float: right;
+    cursor: pointer;
+    padding: 13px;
+    text-align: center;
+}
+.done{
+    text-decoration: line-through;
+}
+.cotrol{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deleteAll {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.deleteAll:hover i {
+    transform: rotate(20deg);
+    transition: 0.3s;
+}
+
+.selectAll {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color : #f7f7f7;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
